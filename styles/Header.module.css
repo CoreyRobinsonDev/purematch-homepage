@@ -1,0 +1,49 @@
+.container, .logo_container, .nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+.turn-white {
+  filter: brightness(0) invert(); 
+}
+
+.logo__img {
+  position: sticky;
+}
+
+.logo__name {
+  position: sticky;
+  color: var(--primary-color);
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+.nav__list {
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+
+.nav__item {
+  color: #93959d;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.nav__donate_link {
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+  color: #ff004a;
+}
+
+.nav__purematch_btn {
+  color: #fcfcfc;
+  background-color: var(--primary-color);
+  padding: .8rem 1.6rem;
+  border-radius: 8px;
+}
