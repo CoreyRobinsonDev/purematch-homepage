@@ -5,6 +5,10 @@
   margin: 0 22.4rem;
 }
 
+.container > * {
+  justify-self: center;
+}
+
 /* Summary */
 
 .about__summary {
@@ -56,4 +60,11 @@
 .feature__description {
   font-size: 2rem;
   line-height: 150%;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
