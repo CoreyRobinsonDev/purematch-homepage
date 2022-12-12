@@ -1,0 +1,56 @@
+.container {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1fr;
+  padding: 7.7rem 8.8rem;
+}
+
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3.2rem;
+}
+
+.logo__name {
+  font-size: 4rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.copyright {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+.socials_container {
+  display: flex;
+  gap: 2.2rem;
+  padding-top: 3.2rem;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--primary-color);
+  padding-bottom: .8rem;
+}
+
+.section__description {
+  color: #2c2d30;
+  padding-bottom: 3.2rem;
+}
+
+.navigation_section {
+  justify-self: center;
+}
+
+.navigation_list {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.link_item {
+  font-weight: 500;
+  color: #2c2d30;
+}
