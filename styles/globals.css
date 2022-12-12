@@ -32,9 +32,6 @@ li {
 	list-style-type: none;
 }
 
-section {
-	margin: 0 22.4rem;
-}
 
 :root {
 	--primary-color: #0089ff;

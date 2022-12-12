@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 5.9rem 0;
+  margin: 0 22.4rem;
 }
 
 /* Summary */
