@@ -4,26 +4,34 @@
 }
 
 .container {
-  position: sticky;
-  top: 0; left: 0;
   justify-content: space-between;
   padding: 2rem 8rem;
-  background-color: white;
-  z-index: 5;
 }
 
 .turn-white {
   filter: brightness(0) invert(); 
 }
 
-.logo__img, .logo__name, .nav__purematch_btn {
+.logo_container, .nav__purematch_btn {
+  position: fixed;
   z-index: 5;
+}
+
+.logo_container {
+  top: 1.4rem;
 }
 
 .logo__name {
   color: var(--primary-color);
   font-weight: normal;
   font-size: 2.4rem;
+  transition: .5s;
+}
+
+.nav_container {
+  position: absolute;
+  top: 3.5rem;
+  left: 56vw;
 }
 
 .nav__list {
@@ -45,8 +53,11 @@
 }
 
 .nav__purematch_btn {
+  top: 2.6rem;
+  left: 85vw;
   color: #fcfcfc;
   background-color: var(--primary-color);
   padding: .8rem 1.6rem;
   border-radius: 8px;
+  transition: .5s;
 }
