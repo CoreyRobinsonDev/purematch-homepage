@@ -1,25 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useState, useEffect, useMemo } from "react";
 
 import styles from "../styles/About.module.css";
 
 
 const About = () => {
-  const [image, setImage] = useState("/images/hero-1.png");
-
-  useEffect(() => {
-    const interval =   setInterval(() => {
-    if (image === "/images/hero-1.png") {
-      setImage("/images/hero-2.png");
-    } else {
-      setImage("/images/hero-1.png");
-    }
-  }, 5000)
-
-    return () => clearInterval(interval);
-  }, [image])
-
   return <section className={styles.container}>
     <div className={styles.about__summary}>
       <h2 className={styles.summary__header}>Connect, Date, and Socialize.</h2>
@@ -43,12 +30,22 @@ const About = () => {
         </Link>
       </span>
     </div>
-    <Image
-      src={image}
-      alt=""
-      width={543}
-      height={613}
-    />
+    <figure className={styles.hero_image_container}>
+      <Image
+        className={`${styles.hero_image} ${styles["--1"]}`}
+        src="/images/hero-1.png" 
+        alt=""
+        width={515.71}
+        height={569.34}
+      />
+      <Image
+        className={`${styles.hero_image} ${styles["--2"]}`}
+        src="/images/hero-2.png" 
+        alt=""
+        width={515.71}
+        height={569.34}
+      />
+    </figure>
     <Image
       src="/images/Feature-Photo-1.png"
       alt=""

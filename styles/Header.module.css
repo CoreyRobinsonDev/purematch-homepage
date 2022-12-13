@@ -9,6 +9,7 @@
   justify-content: space-between;
   padding: 2rem 8rem;
   background-color: white;
+  z-index: 5;
 }
 
 .turn-white {
@@ -16,7 +17,7 @@
 }
 
 .logo__img, .logo__name, .nav__purematch_btn {
-  z-index: 2;
+  z-index: 5;
 }
 
 .logo__name {
