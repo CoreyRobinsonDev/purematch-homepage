@@ -2,9 +2,7 @@
 
 
 # firebase
-/.firebase/purematch-61fc2/functions/node_modules
-/.firebase/purematch-61fc2/functions/.next
-/.firebase/purematch-61fc2/functions/.env
+/.firebase/
 
 # dependencies
 /node_modules
