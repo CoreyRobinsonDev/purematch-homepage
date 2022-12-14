@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+# firebase
+/.firebase/purematch-61fc2/functions/node_modules
+/.firebase/purematch-61fc2/functions/.next
+/.firebase/purematch-61fc2/functions/.env
+
 # dependencies
 /node_modules
 /.pnp
